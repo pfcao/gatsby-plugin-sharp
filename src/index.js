@@ -320,7 +320,7 @@ async function generateBase64({ file, args = {}, reporter }) {
       fit: options.fit,
       background: options.background,
     })
-    .({
+    .png({
       compressionLevel: options.pngCompressionLevel,
       adaptiveFiltering: false,
       force: args.toFormat === `png`,

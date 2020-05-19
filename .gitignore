@@ -1,2 +1,4 @@
 /node_modules
-/*.js
+.history
+package-lock.json
+yarn.lock
